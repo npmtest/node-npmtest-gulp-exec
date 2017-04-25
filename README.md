@@ -1,6 +1,6 @@
 # npmtest-gulp-exec
 
-#### test coverage for  [gulp-exec (v2.1.3)](https://github.com/robrich/gulp-exec)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-exec.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-exec) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-exec.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-exec)
+#### basic test coverage for  [gulp-exec (v2.1.3)](https://github.com/robrich/gulp-exec)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-exec.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-exec) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-exec.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-exec)
 
 #### exec plugin for gulp
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-exec/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-exec/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-exec/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-exec/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-exec/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-exec/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-exec/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-exec/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-exec/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-exec/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-exec/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-exec/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
     "scripts": {
         "test": "mocha && jshint ."
     },
-    "version": "2.1.3"
+    "version": "2.1.3",
+    "bin": {}
 }
 ```
 
